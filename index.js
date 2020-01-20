@@ -12,3 +12,4 @@ function fuzzyMatch(list, searchTerm) {
   // 
   match.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0)
 }
+
