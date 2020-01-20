@@ -9,7 +9,7 @@ function findMatching(list, searchTerm) {
 function fuzzyMatch(list, searchTerm) {
   return list.filter(match => 
   // convert match and searchTerm to lowercase 
-  // 
+  // still trying to wrap my head around .indexOf
   match.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0)
 }
 
