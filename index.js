@@ -13,3 +13,6 @@ function fuzzyMatch(list, searchTerm) {
   match.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0)
 }
 
+function matchName(list, searchTerm) {
+  return list.filter(match => match.name === searchTerm.name)
+}
