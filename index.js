@@ -7,5 +7,8 @@ function findMatching(list, searchTerm) {
 }
 
 function fuzzyMatch(list, searchTerm) {
-  return drivers.filter(match => match.toLowerCase().indexOf(toMatch.toLowerCase()) === 0)
+  return list.filter(match => 
+  // convert match and searchTerm to lowercase 
+  // 
+  match.toLowerCase().indexOf(searchTerm.toLowerCase()) === 0)
 }
