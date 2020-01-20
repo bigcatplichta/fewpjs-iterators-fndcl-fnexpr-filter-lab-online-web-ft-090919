@@ -14,5 +14,5 @@ function fuzzyMatch(list, searchTerm) {
 }
 
 function matchName(list, searchTerm) {
-  return list.filter(match => match.name === searchTerm.name)
+  return list.filter(match => match.name === searchTerm)
 }
